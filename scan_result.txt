@@ -1,0 +1,65 @@
+# Nmap 7.97 scan initiated Mon May 26 20:16:17 2025 as: nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: F8:0D:A9:E0:15:2C (Zyxel Communications)
+
+Nmap scan report for lwip0 (192.168.1.5)
+Host is up (0.024s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+6668/tcp open  irc
+MAC Address: 38:A5:C9:4F:20:81 (Tuya Smart)
+
+Nmap scan report for Tenda (192.168.1.6)
+Host is up (0.025s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+1723/tcp closed pptp
+MAC Address: 04:95:E6:B6:44:B9 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for Redmi-Note-11T-5G (192.168.1.8)
+Host is up (0.032s latency).
+All 1000 scanned ports on Redmi-Note-11T-5G (192.168.1.8) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E4:84:D3:C8:42:D5 (Xiaomi Communications)
+
+Nmap scan report for Redmi-13C-5G (192.168.1.10)
+Host is up (0.025s latency).
+All 1000 scanned ports on Redmi-13C-5G (192.168.1.10) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: C6:EB:AD:E3:76:53 (Unknown)
+
+Nmap scan report for Xxx-s-M33 (192.168.1.11)
+Host is up (0.075s latency).
+All 1000 scanned ports on Xxx-s-M33 (192.168.1.11) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:9B:DA:EF:C8:73 (Unknown)
+
+Nmap scan report for Redmi-13-5G (192.168.1.14)
+Host is up (0.028s latency).
+All 1000 scanned ports on Redmi-13-5G (192.168.1.14) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0A:92:0A:49:5B:6A (Unknown)
+
+Nmap scan report for DESKTOP-DDO04JS (192.168.1.12)
+Host is up (0.00059s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+902/tcp   open  iss-realsecure
+912/tcp   open  apex-mesh
+1521/tcp  open  oracle
+3306/tcp  open  mysql
+7070/tcp  open  realserver
+16992/tcp open  amt-soap-http
+
+# Nmap done at Mon May 26 20:17:33 2025 -- 256 IP addresses (8 hosts up) scanned in 76.40 seconds
